@@ -3,7 +3,7 @@ import React from 'react';
 const Logo: React.FC = () => (
     <div className="flex flex-col items-center justify-center animate-fade-in-logo">
         <div className="relative w-48 h-48">
-            {/* The user's logo will be placed here. Using a placeholder for now. */}
+            {}
             <img
                 src="https://res.cloudinary.com/dwiewdn6f/image/upload/v1754643522/a57cead044f8d10e1256eb54258ab3879a81f1b0_r0nrft.png"
                 alt="Rajulun Yas'a Logo"
