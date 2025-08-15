@@ -4,7 +4,7 @@ const rawPoems = [
   {
     title: 'TANIYATUN RABBI',
     content: [
-      ["Lii saadatun min hizihim # Aqdaamuhum faoqal jibaa", "Inlam aqun min'um falii # Bihubihim hizzu wajaa"],
+      ["Lii saadatun min hizihim #Inlam aqun min'um falii ", "aqdaamuhum faoqal jibaa # Bihubihim hizzu wajaa"],
       ["Fabijaahihim wabihizihim # Toyyib lanaa ayshal ayaa", "Waqtim lanaa bil'hayril yaa # Man laa lanaa rabbu siwaa"],
       ["Yaa rabbanaa solli alaa # Khayril anaami man alaa", "Alaa samaawaatil ula # Bi izni rabbihil alii"],
       ["Tahni'atu rrabeehi # Bimidhati shafeehi", "Bil mantiqil baadihi # Abgii bihaa mu'amalii"],
