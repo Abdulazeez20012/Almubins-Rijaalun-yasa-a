@@ -4,7 +4,7 @@ const rawPoems = [
   {
     title: 'TANIYATUN RABBI',
     content: [
-      ["Lii saadatun min hizihim #Inlam aqun min'um falii ", "aqdaamuhum faoqal jibaa # Bihubihim hizzu wajaa"],
+      ["Lii saadatun min hizihim # aqdaamuhum faoqal jibaa ", "inlam aqun min'um falii # Bihubihim hizzu wajaa"],
       ["Fabijaahihim wabihizihim # Toyyib lanaa ayshal ayaa", "Waqtim lanaa bil'hayril yaa # Man laa lanaa rabbu siwaa"],
       ["Yaa rabbanaa solli alaa # Khayril anaami man alaa", "Alaa samaawaatil ula # Bi izni rabbihil alii"],
       ["Tahni'atu rrabeehi # Bimidhati shafeehi", "Bil mantiqil baadihi # Abgii bihaa mu'amalii"],
@@ -31,8 +31,8 @@ const rawPoems = [
       ["Wajinnuhum fee nakadin # Laram-yihaa bi-rosodi", "Wa-azlihaa an moghadi # Min ajli khayri rusuli"],
       ["Waran-natu shaytaani # Jazaa azeemu sha'ani", "Min ao-dohil burhaani # Li-azmi maa bihib-tuli"],
       ["Qod manna dhul-ifdoli # Bi-afdoli rijaali", "Fil afdoli layaalii # Bil-baladil mufadoli"],
-      ["Ahlan biyaomi heedin # Maa mizluhu min heedin", "Qod alla fil maolidi # Feehi mahallu zuhalin"],
-      ["Wasaa-bihil - wilaada # wamaa ataahu shaa-da", "Min wifqin maa araada # ilaa-huhu fil azali"],
+      ["Ahlan biyaomi heedin # Maa mizluhu min heedin", "Qod alla fil maolidi # Feehi mahalla zuhalin"],
+      ["Wasaa-bihil - wilaada # wamaa ataahu saa-da", "Min wifqin maa araada # ilaa-huhu fil azali"],
       ["Ahlan biyaomi summii # Muhammadan khayras-smin", "Ramsan lima'na-l-ismi # Min jaddihi layanjali"],
       ["Bihamdi-l-Awwaleena # Lahu wal-haakhireena", "Fakaana zaa yekeenaa # Minal kareemil mufdoli"],
       ["Ahlan biyaomi iznayni # Maolidi zaani-iznayni", "Mabhazu sirril-kaoni # Moq-damihil mubajjali"],
@@ -43,7 +43,7 @@ const rawPoems = [
       ["Qod tammati laa-haali # Fee uddati laayaalee", "Bizeenatil mahaalii # Kal-jaoharil mufadoli"],
       ["Ta'nihatun robeehi # Bimid-hati shaafeehi", "Bil-mantiqil badeehi # Abgii biha muhammali"],
       ["Abgii bihaal jamha bihi # Yaoman wanayla qurbihi", "Wafadli hubbi Robbihi # Waman rido-ohu amalii"],
-      ["Wal-khatma lee bil-husnaa # Wal-jamha lee fil husnaa", "Ladaal moqo-oril asnaa # Mahaa rofeeqi-l-afdoli"],
+      ["Wal-khatma lee bil-husnaa # Wal-jamha lee fil husnaa", "Ladaal moqo-oril usnaa # Mahaa rofeeqi-l-afdoli"],
       ["Wakun lanaa waleeyan # Wan-naasiran hafiyan", "Laa-na'khtashi gawiyyan # Bijaahi abdeekal-allee"],
       ["Solli wasallama -l- ilaa` # Alayhi afdolu solaata", "Maa daama kaonuhu illaa # Min abada li-asali"],
       ["Wa-haalihi wasahbihi # Wasaojihi wa hisbihi", "Wakulli aali khubbihi # Maha salaamil akmali"],
@@ -54,7 +54,7 @@ const rawPoems = [
   {
     title: "AHLAN BISHA'RI",
     content: [
-      ["Ahlan bisha'ril maolidi # Zakkara bil mahatadi", "Aslal usuuli liseyyidi # Habeebinaal mubajjali"],
+      ["Ahlan bisha'ril maolidi # Zakkarana bil mahatadi", "Aslal usuuli liseyyidi # Habeebinaal mubajjali"],
       ["Qod kaana khayra mursali #Qoblal wujuudil awwali", "Walam yakun min jandali # Li aslinaal mu'assoli"],
       ["Lam yadri khayral khalqi # Fi khulqihi wal khuluqi", "Siwal ilaahil haqqi # Min malakii Ao mursali"],
       ["Fasha'nuhu sha'nu ajib # Wa ramsuhu ramsul habeeb", "Ramsul habeebi lil-habeeb # Fil uruufi gayru mushkili"],
@@ -94,7 +94,7 @@ const rawPoems = [
       ["The Dust of your Sandal my Beloved wa my Darling # On top of my Forehead more than Silver wa Diamond"],
       ["I Envy Baa-bakar and Umara Because of You # I Envy Usmana and Aliyya Li-ahmadi"],
       ["Agisnii Agisnii Yaa Muroodi wa Musnadi # Li Annaka Baabun Lil-ilaahi wa Maajidi"],
-      ["The Generalissimo of Nabiyyina all of them # My Master my Lover Ya Abeebi Muhammadi"],
+      ["The Generalissimo of Nabiyyina all of them # My Master my Lover Ya Habeebi Muhammadi"],
       ["I Love You Muhammad more than Nafsii wa Property # The Light of the Universe your Excellency Seyyidi"],
       ["Wa Haza Khadimu Jaa Ilaykum Tawadduhan # Agisnii Qobilnii Zal-ayaadi Mumajjadi"],
       ["Eba yin Muhammad ee-ni tin fe Muhammadan # Kinu Ololufe dun Ahmadi wa Muhammadii"],
@@ -114,11 +114,12 @@ const rawPoems = [
       ["YOUR SIGNATURE INSIDE MY HEART (2CE)", "AND YOUR SANDALS UPON MY HEAD", "THAT'S MY GLORY AND THIS MY CROWN"],
       ["YA MUHAMMADU BE MY FRIEND (2CE)", "YA MUHAMMADU YOU'RE MY LOVE", "YOU'RE MY SWEETHEART, YOU'RE MY DARLING"],
       ["I'M NOT HOPELESS I HOPE IN YOU (2CE)", "I AM A WEAKLING BUT STRONG WITH YOU", "HASBIYYALLAAHU WANABBI"],
-      ["YA RASUULULLAH I AM HERE (2CE)", "YA RASUULULLAH SAVE MY SOUL", "FROM ALL TRIALS AND TRIBULATIONS"],
+      ["YA RASUULULLAH I AM HERE (2CE)", "YA RASUULULLAH SAVE MY SOUL", "Be my Saviour and be guide"],
       ["YA RASUULULLAH VIE FOR ME (2CE)", "YA MUHAMMADU VOUCH FOR ME", "YA MUHAMMADU INTERCEDE"],
       ["YA MUHAMMADU INTERCEDE (2CE)", "ON BEHALF OF ALL ALMUBINS", "BIHAQI NUURIL MUTALSAMI"],
       ["AT YOUR DOORSTEP WE ALL HAVE COME (2CE)", "YOUR COMMUNITY ARE SUFFERING", "YA MUHAMMADU INTERCEDE"],
-      ["YOUR COMMUNITY ARE BEEN TORTURED (2CE)", "YOUR COMMUNITY ARE DOWNTRODDEN", "YA MUHAMMADU INTERCEDE", "OUR ENEMIES ARE KILLING US (2CE)", "KILLING OUR CHILDREN AND BOMBING US", "YA MUHAMMADU STAND FOR US"],
+      ["YOUR COMMUNITY ARE BEEN TORTURED (2CE)", "YOUR COMMUNITY ARE DOWNTRODDEN", "YA MUHAMMADU INTERCEDE",
+         "OUR ENEMIES ARE KILLING US (2CE)", "KILLING OUR CHILDREN AND BOMBING US", "YA MUHAMMADU STAND FOR US"],
       ["YA MUHAMMADU INTERCEDE (2CE)", "YA RASUULULLAHI STAND FOR US", "YOU ARE THE LIGHT OF MUTALSAMI"],
       ["BILLIONS SALAATILI FAAТІНІ (2CE)", "UPON MUHAMMMADI EVERYDAY", "ANTA NUURUL MUTALSAMI"]
     ]
@@ -128,7 +129,7 @@ const rawPoems = [
     content: [
       ["OSU BIBI ANABI NA LAWAA FUN", "OSU BIBI ANABI NA LAWAA FUN", "KA PE JO KAJOKO TORI MUHAMMAD", "OSU BIBI ANABI LAWA FUN"],
       ["OSE BIBI ANABI NA LAWA FUN", "OSE BIBI ANABI NA LAWA FUN", "KANA WO KA NARA TORI MUHAMMAD", "OSE BIBI ANABI LAWA FUN"],
-      ["OJO IBI ANABI NA LAWA FUN", "OJO BIBI ANABI LAWA BI FUN", "KA SASALATU FUN KA SE QOSIDA", "OJO IBI ANABI LAWA FUN"],
+      ["OJO IBI ANABI NA LAWA FUN", "OJO BIBI ANABI LAWA wa FUN", "KA SASALATU FUN KA SE QOSIDA", "OJO IBI ANABI LAWA FUN"],
       ["IYA TOBI MUHAMMA LABA DUPE", "BABA TO BI MUHAMMA LABA DUPE", "BIMO ΒΙΜΟ Ο ΒΕΝΙ ΚΑΝ TOTO MUHAMMA", "IYA TOBI MUHAMMA LABA DUPE"],
       ["OMO AAMINATU LABA DUPE", "OMO ABDULLAHI LOLOLA FE", "OLOLA O DE NI KAN TOTO MUHAMMA", "OMO AAMINATU LAGBADE FUN"],
       ["OKO KHADIJATU NA LASIWAJU", "OKO AISHATU NA LASAAJU", "OBINRIN OFE NIKAN TOTO MUHAMMA", "OKO HAAFUSATU LASAAJU"],
@@ -136,12 +137,18 @@ const rawPoems = [
       ["ORE ABU BAKARE NA LORE WA", "ORE UMARU NAA LORE WA", "ΕΝΙΚΑΝ Ο NI ORE BI TI MUHAMΜΜΑ", "ORE JIBRAHILU NA LORE WA"],
       ["ADEKILEKUN NA LARAN SAYE", "ELEYINJU ANU LARAN SAYE", "AL MUSITAFAA LARIN EDA E", "MOSHOBALAAJE NA LAGBADE FUN"],
       ["ADUN BARIN NA LOGAAWA O", "ALAPERIRE NA LOGAAWA", "OLOLA O DE NI KAN TOTO MUHAMMA", "ISELERUU ANU LOGAAWA"],
-      ["ASIWAAJU EDA LOLA DA PE", "ASIWAAJU EDA LOLA DA PE", "ODA MUSA - KOTO MUHAMMA", "ODA ISA - KOTO MUHAMMA", "ODA LI ARASHI KOTO MUHAMΜΑ", "ASIWAAJU EDA LOLA DA PE"],
+      ["ASIWAAJU EDA LOLA DA PE", "ASIWAAJU EDA LOLA DA PE", "ODA MUSA - KOTO MUHAMMA", "ODA ISA - KOTO MUHAMMA", 
+        "ODA LI ARASHI KOTO MUHAMΜΑ", "ASIWAAJU EDA LOLA DA PE"],
       ["TORI MAOLUDI NA LABADEBI", "TORI MADIU NA LASEN WA", "ORO OFIN KO LEYI O IFE MA LO KAN", "TORI MAOLUDI NA LABADEBI"],
       ["TORI MAOLUDI NA LABADEBI", "TORI MADIU NA LASEN WA", "WARA FAH NAA LAKA KA ZIKIRAKA", "TORI MAOLUDI NA LABADEBI"],
-      ["EJE AYON BO ANABI OMO NLA", "EJE AYON BO ANABI OMO NLA", "BOWO LOFEENI YONBO MUHAMΜΑ", "EJE AYONBO ANABI OMO NLA", "BOMO LOFEEBI YONBO ANABI", "EJE AYONBO ANABI OMO NLA", "BO LA LOBAN FE YONBO MUHAMMA", "EJE AYON BO ANABI OMO NLA"],
-      ["EMI O YONBO ANABI KOLA O DE", "EJE AYON BO ANABI OMO NLA", "EJE AYON BO ANABI OMO NLA", "EJE AYON BO ANABI OMO NLA", "KAYE WA ORORUN KORUN SI TUN DUN", "EJE AYONBO ANABI OMO NLA"],
-      ["ΙΝΑΑ ΑΤΑΥΝΑΑΚΑ AL KAOSARA", "EJE AYON BO ANABI OMO NLA", "MUHAMMADAAHU OLOPO EWA", "EJE AYON BO ANABI OMO NLA", "YA ROBI SOLI ALA MUHAMMA", "EJE AYON BO ANABI OMO NLA", "WA ALAA AALI PELU SAHABI", "EJE AYON BO ANABI OMO NLA"]
+      ["EJE AYON BO ANABI OMO NLA", "EJE AYON BO ANABI OMO NLA", "BOWO LOFEENI YONBO MUHAMΜΑ", 
+        "EJE AYONBO ANABI OMO NLA", "BOMO LOFEEBI YONBO ANABI", 
+        "EJE AYONBO ANABI OMO NLA", "BO LA LOBAN FE YONBO MUHAMMA", "EJE AYON BO ANABI OMO NLA"],
+      ["EMI O YONBO ANABI KOLA O DE", "EJE AYON BO ANABI OMO NLA", "EJE AYON BO ANABI OMO NLA",
+         "EJE AYON BO ANABI OMO NLA", "KAYE WA ORORUN KORUN SI TUN DUN", "EJE AYONBO ANABI OMO NLA"],
+      ["ΙΝΑΑ ΑΤΑΥΝΑΑΚΑ AL KAOSARA", "EJE AYON BO ANABI OMO NLA", "MUHAMMADAAHU OLOPO EWA", 
+        "EJE AYON BO ANABI OMO NLA", "YA ROBI SOLI ALA MUHAMMA", "EJE AYON BO ANABI OMO NLA",
+         "WA ALAA AALI PELU SAHABI", "EJE AYON BO ANABI OMO NLA"]
     ]
   },
   {
